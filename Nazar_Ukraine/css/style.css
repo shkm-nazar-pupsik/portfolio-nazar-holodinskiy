@@ -1,0 +1,605 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	display: inline-block;
+}
+.container
+{
+	width: 1240px;
+	margin: 0 auto;
+}
+.up
+{
+	position: fixed;
+	top: 550px;
+	left: 1250px;
+	height: 70px;
+}
+/*Початок роботи над початковим блоком*/
+.header
+{
+	width: 1240px;
+}
+.navigation
+{
+	width: 450px;
+	height: 150px;
+	padding: 30px;
+	float: left;
+}
+.header_menu_item
+{
+	margin-top: 17px;
+	float: left;
+	display: inline-block;
+}
+.header_menu_link
+{
+	text-decoration: none;
+}
+.logo
+{
+	float: right;
+	display: inline-block;
+}
+.image
+{
+	width: 550px;
+	float: right;
+	display: inline-block;
+}
+.main
+{
+	width: 400px;
+	float: left;
+	margin-top: 200px;
+	margin-left: -480px;
+}
+.title
+{
+	font-family: jura;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 118px;
+}
+.title2
+{
+	font-family: jura;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 59px;
+}
+.text
+{
+	font-family: jura;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+}
+.t2
+{
+	margin-top: 30px;
+	background: #1565c0;
+	padding: 15px;
+	color: #ffffff;
+	box-shadow: 0 9px 0 1px 0,2 grey;
+	font-family: jura;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+}
+.t2:hover
+{
+	background: #ffc107;
+}
+/*Кінець роботи над початковим блоком*/
+/*Початок роботи над про минуле блоком*/
+.article
+{
+	text-align: center;
+}
+.main2
+{
+	width: 1420px;
+	box-sizing: border-box;
+	height: 200px;	
+}
+.section
+{
+	width: 300px;
+	height: 200px;
+	border: 2px solid black;
+	text-align: left;
+	float: left;
+	margin-right: 20px;
+	display: inline-block;
+}
+.section *
+{
+	margin-top: 5px;
+}
+.text2
+{
+	text-align: left;
+}
+.t3
+{
+	float: left;
+	margin-top: 15px;
+}
+.s2
+{
+	float: right;
+	margin-right: 150px;
+}
+.section2
+{
+	float: right;
+
+}
+.section:hover
+{
+	background: #2196f3;
+	color: white;
+}
+.title3
+{
+	font-size: 24px;
+}
+/*Кінець роботи над минулим блоком*/
+/*Початок роботи над козацьким блоком*/
+.container2 *
+{
+	float: left;
+}
+.title5
+{
+	margin-left: 340px;	
+	margin-bottom: 20px;
+	text-align: center;	
+}
+.section2
+{
+	width: 1240px;
+	float: left;
+}
+.container3
+{
+	width: 270px;
+	height: 180px;
+	margin-left: 15px;
+	padding: 7px;
+	box-sizing: border-box;	
+	float: right;
+	border: 1px solid black;
+	margin-right: 17px;
+}
+.c3
+{
+	width: 570px;
+	height: 180px;
+	background: #2196f3;
+	box-sizing: border-box;
+	padding: 25px 15px;
+	float: left;
+}
+.container4
+{
+	width: 366px;
+	float: left;
+}
+.title6
+{
+	margin-bottom: 10px;
+}
+.image4
+{
+	float: right;
+}
+.obertka2
+{
+	margin-bottom: 15px;	
+	margin-right: 20px;	
+
+}
+.text3
+{
+	font-size: 20px;
+	margin-bottom: 15px;
+	
+}
+.text4
+{
+	
+}
+/*Кінець роботи над козацьким блоком*/
+/*Початок роботи над мрієвим блоком*/
+.article4
+{
+	background: gold;
+	width: 1240px;
+	box-sizing: border-box;
+	padding: 10px;
+	text-align: center;
+}
+.title7
+{
+	text-align: center;
+}
+.obertka3
+{
+	width: 550px;
+	margin-top: 50px;
+	float: left;
+}
+.read_more
+{
+	margin-top: 50px;
+	border: 2px solid black;
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding: 5px;
+	float: left;
+}
+.image5
+{
+	display: inline-block;
+	float: right;
+}
+.text5
+{
+	text-align: left;
+}
+/*Кінець роботи над мрієвим блоком*/
+/*Початок роботи над трансформаційним блоком*/
+.article5
+{
+	text-align: center;
+}
+.title9
+{
+	margin-top: 15px;
+}
+.section4
+{
+	width: 1240px;
+	margin-top: 15px;
+	box-sizing: border-box;
+	padding: 7px;
+	height: 200px;
+}
+.section5
+{
+	width: 250px;
+	height: 150px;
+	border-radius: 20px;
+	border: 2px solid black;
+	float: left;
+	margin-right: 10px;
+}
+/*Початок роботи над галерейним блоком*/
+.title10
+{
+	margin-bottom: 8px;
+}
+/*Кінець роботи над галерейним блоком*/
+/*Початок роботи над Зеленським блоком*/
+.article7
+{
+	background: darkblue;
+	padding: 10px;
+}
+.text8
+{
+	color: white;
+	font-size: 35px;
+	float: left;
+}
+/*Кінець роботи над Зеленським блоком*/
+/*Початок роботи над блоком з побажаннями*/
+.yellow
+{
+	background: gold;
+	width: 400px;
+	height: 250px;
+}
+.img
+{
+	height: 100px;
+	float: left;
+}
+.text9
+{
+	float: right;
+}
+/*Кінець роботи над блоком з побажаннями*/
+/*Початок роботи над блоком з майбутнім*/
+.article9
+{
+	text-align: center;
+}
+.section8
+{
+	width: 1240px;
+}
+.fantic
+{
+	height: 230px;
+	width: 270px;
+	border: 1px solid black;
+	text-align: left;
+	padding: 8px;
+	margin-right: 15px;
+	float: left;
+}
+.section9
+{
+	width: 1240px;
+}
+.fantic2
+{
+	height: 230px;
+	width: 450px;
+	border: 1px solid black;
+	text-align: left;
+	padding: 8px;
+	margin-right: 15px;
+	float: left;
+}
+/*Кінець роботи над блоком з майбутнім*/
+/*Початок роботи над блоком з стікерами*/
+.image11
+{
+	width: 200px;
+}
+/*Кінець роботи над блоком з стікерами*/
+/*Початок роботи над підвалом*/
+.container2_1
+{
+	width: 1240px;
+}
+.footer
+{
+	background: darkblue;
+	text-align: center;
+	padding: 7px;
+	width: 1240px;
+	height: 100px;
+	color: white;
+}
+.text11
+{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.image12
+{
+	margin-top: 15px;
+	margin-left: 15px;
+}
+/*Кынець роботи над підвалом*/
+/*Початок роботи над заговолком новорычноъ сторінки*/
+.header
+{
+	width: 1240px;
+}
+.navigation
+{
+	width: 450px;
+	height: 150px;
+	padding: 30px;
+	float: left;
+}
+.header_menu_item
+{
+	margin-top: 17px;
+	float: left;
+	display: inline-block;
+}
+.header_menu_link
+{
+	text-decoration: none;
+}
+.statuya
+{
+	margin-left: 600px;
+	margin-bottom: 300px;
+}
+.heart
+{
+	width: 100px;
+	float: left;
+	margin-bottom: 70px;
+}
+.ukr
+{
+	font-family: jura;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 118px;
+}
+/*Кінець роботи над заговолком новорычноъ сторінки*/
+/*Початок роботи над блоком з побажаннями до світу*/
+.article12
+{
+	text-align: center;
+	background: red;
+}
+.title16
+{
+	color: white;
+	margin-bottom: 20px;
+}
+.main3
+{
+	width: 1420px;
+	box-sizing: border-box;
+	height: 200px;	
+}
+.section10
+{
+	width: 300px;
+	height: 200px;
+	border: 2px solid black;
+	text-align: left;
+	float: left;
+	margin-right: 20px;
+	display: inline-block;
+}
+.section *
+{
+	margin-top: 5px;
+}
+.text12
+{
+	text-align: left;
+}
+.section10:nth-child(odd)
+{
+	background: darkgreen;
+	color: white;
+}
+.section10:nth-child(even)
+{
+	background: white;
+}
+
+
+.article13
+{
+	text-align: center;
+	background: lightcyan;
+}
+.title17
+{
+	color: darkgreen;
+	margin-bottom: 20px;
+}
+.main4
+{
+	width: 1420px;
+	box-sizing: border-box;
+	height: 200px;	
+}
+.section11
+{
+	width: 300px;
+	height: 200px;
+	border: 2px solid black;
+	text-align: left;
+	float: left;
+	margin-right: 20px;
+	display: inline-block;
+}
+.section *
+{
+	margin-top: 5px;
+}
+.text12
+{
+	text-align: left;
+}
+.section11:nth-child(odd)
+{
+	background: white;
+}
+.section11:nth-child(even)
+{
+	background: gold;
+}
+
+
+.article14
+{
+	text-align: center;
+	background: red;
+}
+.title20
+{
+	color: white;
+	margin-bottom: 20px;
+}
+.main5
+{
+	width: 1420px;
+	box-sizing: border-box;
+	height: 200px;	
+}
+.section12
+{
+	width: 300px;
+	height: 200px;
+	border: 2px solid black;
+	text-align: left;
+	float: left;
+	margin-right: 20px;
+	display: inline-block;
+}
+.section12 *
+{
+	margin-top: 5px;
+}
+.text14
+{
+	text-align: left;
+}
+.section12:nth-child(odd)
+{
+	background: darkgreen;
+	color: white;
+}
+.section12:nth-child(even)
+{
+	background: white;
+}
+
+
+.article15
+{
+	text-align: center;
+	background: lightcyan;
+}
+.title22
+{
+	color: darkgreen;
+	margin-bottom: 20px;
+}
+.main5
+{
+	width: 1420px;
+	box-sizing: border-box;
+	height: 200px;	
+}
+.section13
+{
+	width: 300px;
+	height: 200px;
+	border: 2px solid black;
+	text-align: left;
+	float: left;
+	margin-right: 20px;
+	display: inline-block;
+}
+.section *
+{
+	margin-top: 5px;
+}
+.text15
+{
+	text-align: left;
+}
+.section13:nth-child(odd)
+{
+	background: white;
+}
+.section13:nth-child(even)
+{
+	background: gold;
+}
